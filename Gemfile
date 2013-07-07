@@ -12,6 +12,10 @@ end
 group :production do
 gem 'pg'
 end
+
+group :test do
+  gem 'capybara'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
