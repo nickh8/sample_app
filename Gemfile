@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'protected_attributes'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -12,6 +13,7 @@ gem 'guard-spork'
 gem 'childprocess'
 gem 'spork'
  gem 'capybara', '1.1.2'
+ gem 'annotate'
 end
 
 gem 'pg'
